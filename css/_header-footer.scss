@@ -1,342 +1,15 @@
-// #header1{font-family: 'Rubik', sans-serif;
-//     background-color: #10223A;
-//     width: 34vh;
-//     height: 100vh;
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     text-align: center;
-//     padding: 100px 0;
-//     img{
-//         width: 60%;
-//     }
-//     .link-bar{padding: 20px 0;
-//         text-transform: uppercase;
-//         li{
-//             padding: 9px 0;
-//             margin: 5px 0;
-//             font-weight: 700;    
-
-//             a{
-//                 color: #fff;
-//                 transition: 1s;
-//                 background-color: #10223A;
-//                 border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
-
-//                 padding: 10px 15px;
-//                  margin: 9px 0;
-
-//                 &:hover{
-//                 background-color: #FAB005;
-//                 border-radius: 62% 38% 82% 18% / 54% 61% 39% 46%;
-//                 padding: 10px 15px;
-//                  margin: 9px 0;
-//                 color: #10223A;
-//                 }
-
-//             }
-//         }
-//         .pages{position: relative;
-//             &:hover{
-//                 .dropdown{
-//                     display: block;
-//                 }
-//             }
-//             .dropdown{ display: none;
-//                 background-color: #fff;
-//                position: absolute;
-//                top: 40%;
-//                left: 91%;
-//                width: 190px;
-//             border-radius: 5px;
-//             border: 1px solid gainsboro;
-//                ul{
-//                 li{
-//                 margin: 0;
-//                 padding: 4px 0;
-//                 a{
-//                  color: #000;
-//                  border-radius: 0;
-//                  background-color: #fff;
-//                  padding: 5px 0 !important;
-//                  display: inline-block;
-
-//                  &:hover{
-//                     background-color: #FAB005;
-//                     color: #fff;
-
-//                  }
-
-
-//                 }
-//                 }
-//                }
-//                 }
-
-//             }
-
-//     }
-//     .link-bar2{
-//         font-size: 14px;
-//        li{
-//         color: #fff;
-//         padding: 5px 0;
-//         .icons{
-//             i{
-//                 color: #FAB005;
-//                 transition: 0.3s;
-//                 &:hover{
-//                     color: #fff;
-//                 }
-//             }
-//         }
-//         i{
-//             font-size: 13px;
-//         }
-
-//        }
-//     }
-// }
-
-
-@media(min-width:1200px) {
-    // #header1{ display: block;
-    //     font-family: 'Rubik', sans-serif;
-    //     background-color: #10223A;
-    //     width: 34vh;
-    //     height: 100vh;
-    //     position: fixed;
-    //     z-index: 999;
-    //     top: 0;
-    //     left: 0;
-    //     text-align: center;
-    //     padding: 100px 0;
-    //     img{
-    //         width: 60%;
-    //     }
-    //     .link-bar{padding: 20px 0;
-    //         text-transform: uppercase;
-    //         li{
-    //             padding: 9px 0;
-    //             margin: 5px 0;
-    //             font-weight: 700;    
-
-    //             a{
-    //                 color: #fff;
-    //                 transition: 1s;
-    //                 background-color: #10223A;
-    //                 border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
-
-    //                 padding: 10px 15px;
-    //                  margin: 9px 0;
-
-    //                 &:hover{
-    //                 background-color: #FAB005;
-    //                 border-radius: 62% 38% 82% 18% / 54% 61% 39% 46%;
-    //                 padding: 10px 15px;
-    //                  margin: 9px 0;
-    //                 color: #10223A;
-    //                 }
-
-    //             }
-    //         }
-    //         .pages{position: relative;
-    //             &:hover{
-    //                 .dropdown{
-    //                     display: block;
-    //                 }
-    //             }
-    //             .dropdown{ display: none;
-    //                 background-color: #fff;
-    //                position: absolute;
-    //                top: 40%;
-    //                left: 91%;
-    //                width: 190px;
-    //             border-radius: 5px;
-    //             border: 1px solid gainsboro;
-    //                ul{
-    //                 li{
-    //                 margin: 0;
-    //                 padding: 4px 0;
-    //                 a{
-    //                  color: #000;
-    //                  border-radius: 0;
-    //                  background-color: #fff;
-    //                  padding: 5px 0 !important;
-    //                  display: inline-block;
-
-    //                  &:hover{
-    //                     background-color: #FAB005;
-    //                     color: #fff;
-
-    //                  }
-
-
-    //                 }
-    //                 }
-    //                }
-    //                 }
-
-    //             }
-
-    //     }
-    //     .link-bar2{
-    //         font-size: 14px;
-    //        li{
-    //         color: #fff;
-    //         padding: 5px 0;
-    //         .icons{
-    //             i{
-    //                 color: #FAB005;
-    //                 transition: 0.3s;
-    //                 &:hover{
-    //                     color: #fff;
-    //                 }
-    //             }
-    //         }
-    //         i{
-    //             font-size: 13px;
-    //         }
-
-    //        }
-    //     }
-    // }
-    #header2 {
-        display: none;
-    }
+h1{font-size: 2.4em;}
+  h2{font-size: 2.0em;}
+  h3{font-size: 1.7em;}
+ h4{font-size: 1.5em;}
+ h5 {
+    font-size: 1.5em;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom:20px;
 }
 
-// @media(max-width:1200px){
-//     #header1{display: none;}
-
-//     #header2{z-index: 999;
-//         display: block;
-//         background-color: #10223A;
-//         width: 100%;
-//         height: auto;
-//         padding: 5px 0;
-
-//     .header-kapsam{
-
-//         .box{
-//             img{width: 60px;}
-//             i{
-//                 font-size: 30px;
-//                 color: #fff;
-//             }
-//         }
-//     }
-//      .scroll{
-
-//         overflow: scroll;
-//         width: 100%;
-//         height: 400px;
-//         overflow-x: hidden;
-
-
-//      }
-//      .scroll::-webkit-scrollbar{
-//         background: #777;
-//         width: 10px;
-//         height: 8px;
-//      }
-//      .scroll::-webkit-scrollbar-thumb{
-//         background: #fff;
-//      }
-
-//     .link-bar3{
-//         width: 100%;
-//         text-transform: uppercase;
-//         li{
-//             padding: 9px 0;
-//             margin: 5px 0;
-//             font-weight: 700;    
-
-
-//             a{
-//                 color: #fff;
-//                 transition: 0.5s;
-//                 background-color: #10223A;
-//                 border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
-//                 display: block;
-//                 padding: 9px 0;
-//                 margin: 5px 0;
-
-
-
-//                 &:hover{
-//                 background-color: #FAB005;
-//                 border-radius: 62% 38% 82% 18% / 54% 61% 39% 46%;
-//                 color: #10223A;
-
-//                 }
-
-//             }
-//         }
-//         .pages{position: relative;
-//             &:hover{
-//                 .dropdown{
-//                     display: block;
-//                 }
-//             }
-//             .dropdown{ 
-//                 background-color: #fff;
-
-//                width: 190px;
-//             border-radius: 5px;
-//             border: 1px solid gainsboro;
-//                ul{
-//                 li{
-//                 margin: 0;
-//                 padding: 4px 0;
-//                 a{
-//                  color: #10223A;
-//                  font-weight: 500;
-//                  border-radius: 0;
-//                  background-color: #fff;
-//                  padding: 5px 0 !important;
-//                  display: inline-block;
-
-//                  &:hover{
-//                     background-color: #FAB005;
-//                     color: #fff;
-
-//                  }
-
-
-//                 }
-//                 }
-//                }
-//                 }
-
-//             }
-
-//     }
-//     .link-bar2{
-//         font-size: 14px;
-//        li{
-//         color: #fff;
-//         padding: 5px 0;
-//         .icons{
-//             i{
-//                 color: #FAB005;
-//                 transition: 0.3s;
-//                 &:hover{
-//                     color: #fff;
-//                 }
-//             }
-//         }
-//         i{
-//             font-size: 13px;
-//         }
-
-//        }
-//     }
-//     }
-// }
-
-@media(min-width:500px){
-    #header1 {
+#header1 {
         font-family: 'Rubik', sans-serif;
         background-color: #10223A;
         width: 100%;
@@ -344,6 +17,7 @@
         position: fixed;
         z-index: 999;
         padding: 10px 0;
+        top: 0;
         .boxes {
             display: flex;
             justify-content: space-between;
@@ -489,9 +163,38 @@
             }
         }
     }
-}
+
 
 @media(min-width:768px) {
+    h1{
+        font-size: 4.3em;
+     line-height: 1em;
+     margin-bottom: 15px;
+     letter-spacing: -0.5px;
+     font-weight: 700; 
+     }
+     h2{
+         margin-bottom: 20px;
+         font-weight: 700;
+         line-height: 1.1;
+         font-size: 3.4em;
+         margin-bottom: 20px;
+         letter-spacing: -0.5px;
+     }
+     h3 {
+         font-size: 2.4em;
+         font-weight: 700;
+         letter-spacing: -0.2px;
+         margin-bottom: 20px;
+         line-height: 1.2;
+     }
+     h4 {
+         font-size: 1.8em;
+         line-height: 1.2em;
+         font-weight: 700;
+         margin-bottom:20px;}
+
+   
     #header1 {
         font-family: 'Rubik', sans-serif;
         background-color: #10223A;
@@ -648,218 +351,6 @@
 }
 
 @media(min-width:992px) {
-    // #header1 {
-    //     font-family: 'Rubik', sans-serif;
-    //     background-color: #10223A;
-    //     width: 34vh;
-    //     height: 100vh;
-    //     position: fixed;
-    //     z-index: 999;
-    //     top: 0;
-    //     left: 0;
-    //     text-align: center;
-    //     padding: 100px 0;
-
-    //     .boxes {
-    //         .box {
-    //             img {
-    //                 width: 60%;
-    //             }
-
-    //             i {
-    //                 display: none;
-    //             }
-    //         }
-    //     }
-
-    //     .scroll {
-    //         display: none;
-    //     }
-
-    //     .link-bar {
-    //         display: block;
-    //         padding: 20px 0;
-    //         text-transform: uppercase;
-
-    //         li {
-    //             padding: 9px 0;
-    //             margin: 5px 0;
-    //             font-weight: 700;
-
-    //             a {
-    //                 color: #fff;
-    //                 transition: 1s;
-    //                 background-color: #10223A;
-    //                 border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
-
-    //                 padding: 10px 15px;
-    //                 margin: 9px 0;
-
-    //                 &:hover {
-    //                     background-color: #FAB005;
-    //                     border-radius: 62% 38% 82% 18% / 54% 61% 39% 46%;
-    //                     padding: 10px 15px;
-    //                     margin: 9px 0;
-    //                     color: #10223A;
-    //                 }
-
-    //             }
-    //         }
-
-    //         .pages {
-    //             position: relative;
-
-    //             &:hover {
-    //                 .dropdown {
-    //                     display: block;
-    //                 }
-    //             }
-
-    //             .dropdown {
-    //                 display: none;
-    //                 background-color: #fff;
-    //                 position: absolute;
-    //                 top: 40%;
-    //                 left: 91%;
-    //                 width: 190px;
-    //                 border-radius: 5px;
-    //                 border: 1px solid gainsboro;
-
-    //                 ul {
-    //                     li {
-    //                         margin: 0;
-    //                         padding: 4px 0;
-
-    //                         a {
-    //                             color: #000;
-    //                             border-radius: 0;
-    //                             background-color: #fff;
-    //                             padding: 9px 0 !important;
-    //                             margin: 0 !important;
-    //                             display: inline-block;
-    //                             width: 100%;
-
-    //                             &:hover {
-    //                                 background-color: #FAB005;
-    //                                 color: #fff;
-
-    //                             }
-
-
-    //                         }
-    //                     }
-    //                 }
-    //             }
-
-    //         }
-
-    //     }
-
-    //     .link-bar1 {
-    //         display: block;
-    //         padding: 20px 0;
-    //         text-transform: uppercase;
-
-    //         li {
-    //             padding: 9px 0;
-    //             margin: 5px 0;
-    //             font-weight: 700;
-
-    //             a {
-    //                 color: #fff;
-    //                 transition: 1s;
-    //                 background-color: #10223A;
-    //                 border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
-
-    //                 padding: 10px 15px;
-    //                 margin: 9px 0;
-
-    //                 &:hover {
-    //                     background-color: #FAB005;
-    //                     border-radius: 62% 38% 82% 18% / 54% 61% 39% 46%;
-    //                     padding: 10px 15px;
-    //                     margin: 9px 0;
-    //                     color: #10223A;
-    //                 }
-
-    //             }
-    //         }
-
-    //         .pages {
-    //             position: relative;
-
-    //             &:hover {
-    //                 .dropdown {
-    //                     display: block;
-    //                 }
-    //             }
-
-    //             .dropdown {
-    //                 display: none;
-    //                 background-color: #fff;
-    //                 position: absolute;
-    //                 top: 40%;
-    //                 left: 91%;
-    //                 width: 190px;
-    //                 border-radius: 5px;
-    //                 border: 1px solid gainsboro;
-
-    //                 ul {
-    //                     li {
-    //                         margin: 0;
-    //                         padding: 4px 0;
-
-    //                         a {
-    //                             color: #000;
-    //                             border-radius: 0;
-    //                             background-color: #fff;
-    //                             padding: 9px 0 !important;
-    //                             margin: 0 !important;
-    //                             display: inline-block;
-    //                             width: 100%;
-
-    //                             &:hover {
-    //                                 background-color: #FAB005;
-    //                                 color: #fff;
-
-    //                             }
-
-
-    //                         }
-    //                     }
-    //                 }
-    //             }
-
-    //         }
-
-    //     }
-
-    //     .link-bar2 {
-    //         display: block;
-    //         font-size: 14px;
-
-    //         li {
-    //             color: #fff;
-    //             padding: 5px 0;
-
-    //             .icons {
-    //                 i {
-    //                     color: #FAB005;
-    //                     transition: 0.3s;
-
-    //                     &:hover {
-    //                         color: #fff;
-    //                     }
-    //                 }
-    //             }
-
-    //             i {
-    //                 font-size: 13px;
-    //             }
-
-    //         }
-    //     }
-    // }
     #header1 {
         font-family: 'Rubik', sans-serif;
         background-color: #10223A;
@@ -1232,6 +723,7 @@
             }
         }
     }
+   
 
 
 }
